@@ -1,0 +1,66 @@
+node_modules
+dist
+.DS_Store
+*.swp
+.git/*
+__pycache__/
+*.pyc
+.venv
+*.o
+*.a
+/vendor
+*.egg-info/
+/.env
+.env
+.cozeproj/reduction
+
+# 视频文件
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+*.webm
+*.m4v
+*.mpeg
+*.mpg
+*.3gp
+*.f4v
+*.rmvb
+*.vob
+
+# 归档文件
+*.iso
+*.dmg
+*.rar
+*.zip
+*.gz
+
+# 文档类也默认加入
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.ppt
+*.pptx
+*.xlsx
+*.csv
+
+# Preview files
+.preview
+
+# CodeGraph index
+.codegraph
+
+# 本地文档生成与核验过程文件
+文档更新工作/
+
+# ---------------------------------------------------------------------------
+# 参赛交付物例外：上面的 *.pdf / *.docx / *.pptx / *.mp4 是给开发资料用的，
+# 但 docs/ 下放的是必须随仓库提交的参赛材料（项目文档 PDF 等），需要放行。
+# 注意：例外规则必须写在忽略规则之后才会生效。
+# ---------------------------------------------------------------------------
+!docs/
+!docs/**

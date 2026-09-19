@@ -1,0 +1,12 @@
+[project]
+entrypoint = "src/main.py"
+requires = ["python-3.12"]
+
+[dev]
+build = ["bash", "scripts/setup.sh"]
+run = ["bash", "scripts/http_run.sh"]
+pack = ["bash", "scripts/pack.sh"]
+
+[deploy]
+build = ["bash", "scripts/setup.sh"]
+run = ["bash", "scripts/http_run.sh"]

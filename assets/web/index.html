@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>第五季·续种 | 校园未竟梦想的AI传承智能体</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2096%2096'%3E%0A%3Cg%20transform='translate(48,48)'%3E%0A%3Cpath%20d='M0%20-12.5%20C6.6%20-23.5%207.2%20-35.5%200%20-43%20C-7.2%20-35.5%20-6.6%20-23.5%200%20-12.5%20Z'%20fill='%234e9e6b'/%3E%0A%3Cpath%20d='M0%20-12.5%20C6.6%20-23.5%207.2%20-35.5%200%20-43%20C-7.2%20-35.5%20-6.6%20-23.5%200%20-12.5%20Z'%20transform='rotate(72)'%20fill='%23dfa12e'/%3E%0A%3Cpath%20d='M0%20-12.5%20C6.6%20-23.5%207.2%20-35.5%200%20-43%20C-7.2%20-35.5%20-6.6%20-23.5%200%20-12.5%20Z'%20transform='rotate(144)'%20fill='%23d97444'/%3E%0A%3Cpath%20d='M0%20-12.5%20C6.6%20-23.5%207.2%20-35.5%200%20-43%20C-7.2%20-35.5%20-6.6%20-23.5%200%20-12.5%20Z'%20transform='rotate(216)'%20fill='%235c86c4'/%3E%0A%3Cpath%20d='M0%20-12.5%20C6.6%20-23.5%207.2%20-35.5%200%20-43%20C-7.2%20-35.5%20-6.6%20-23.5%200%20-12.5%20Z'%20transform='rotate(288)'%20fill='%237b5cd6'/%3E%0A%3C/g%3E%0A%3Ccircle%20cx='48'%20cy='48'%20r='13'%20fill='%235b3fb8'/%3E%0A%3Ccircle%20cx='48'%20cy='48'%20r='13'%20fill='none'%20stroke='%23fff'%20stroke-opacity='.5'%20stroke-width='1.5'/%3E%0A%3Cpath%20d='M48%2055%20C48%2051%2047%2048%2044.5%2046.2'%20stroke='%23fff'%20stroke-width='2.4'%20stroke-linecap='round'%20fill='none'/%3E%0A%3Cpath%20d='M44.5%2046.2%20C41.8%2044.5%2040.6%2041.8%2041%2039.2%20C43.7%2040.3%2045.4%2042.9%2044.9%2046%20Z'%20fill='%23fff'/%3E%0A%3Cpath%20d='M48%2055%20C48%2051.6%2049%2049%2051.4%2047.4'%20stroke='%23fff'%20stroke-width='2.4'%20stroke-linecap='round'%20fill='none'/%3E%0A%3Cpath%20d='M51.4%2047.4%20C53.9%2046.2%2055%2044.2%2054.8%2041.9%20C52.4%2042.8%2050.6%2044.8%2050.4%2047.2%20Z'%20fill='%23fff'/%3E%0A%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- 全局背景装饰层：四季色斑 + 星点 + 浮叶 + 光尘 -->
+  <div class="bg-decor" aria-hidden="true">
+    <span class="bg-blob blob-spring"></span>
+    <span class="bg-blob blob-summer"></span>
+    <span class="bg-blob blob-autumn"></span>
+    <span class="bg-blob blob-winter"></span>
+    <span class="bg-star" style="top:8%;left:6%">✦</span>
+    <span class="bg-star" style="top:22%;right:9%;animation-delay:2s">✧</span>
+    <span class="bg-star" style="top:46%;left:3%;animation-delay:4s">✦</span>
+    <span class="bg-star" style="top:70%;right:5%;animation-delay:1s">✧</span>
+    <span class="bg-star" style="top:88%;left:10%;animation-delay:3s">✦</span>
+    <span class="bg-star" style="top:34%;right:22%;animation-delay:5s">✧</span>
+    <span class="bg-star" style="top:60%;left:18%;animation-delay:6s">✦</span>
+    <span class="bg-leaf" style="top:14%;left:14%">🌿</span>
+    <span class="bg-leaf" style="top:58%;right:13%;animation-delay:2.5s">🍃</span>
+    <span class="bg-leaf" style="top:82%;left:7%;animation-delay:5s">🌿</span>
+    <span class="bg-leaf" style="top:34%;right:4%;animation-delay:3.5s">🍂</span>
+    <span class="bg-petal" style="left:5%;font-size:13px;animation-duration:19s">🌸</span>
+    <span class="bg-petal" style="left:16%;font-size:10px;animation-duration:26s;animation-delay:6s">❀</span>
+    <span class="bg-petal" style="left:31%;font-size:12px;animation-duration:22s;animation-delay:11s">🌸</span>
+    <span class="bg-petal" style="left:48%;font-size:9px;animation-duration:30s;animation-delay:3s">💮</span>
+    <span class="bg-petal" style="left:63%;font-size:12px;animation-duration:24s;animation-delay:14s">❀</span>
+    <span class="bg-petal" style="left:79%;font-size:10px;animation-duration:28s;animation-delay:8s">🌸</span>
+    <span class="bg-petal" style="left:92%;font-size:13px;animation-duration:21s;animation-delay:17s">💮</span>
+    <svg class="bg-branch" viewBox="0 0 340 260" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path d="M330 250 Q 250 190 200 200 Q 150 210 110 170" />
+      <path d="M200 200 Q 195 150 170 130" />
+      <path d="M170 130 q -30 -8 -44 -32 q 30 4 44 32z" />
+      <path d="M150 185 q -34 2 -52 -18 q 32 -2 52 18z" />
+      <path d="M110 170 Q 80 150 70 120" />
+      <path d="M80 138 q -28 -12 -34 -38 q 26 10 34 38z" />
+      <path d="M250 193 q -8 -30 6 -52 q 12 26 -6 52z" />
+    </svg>
+    <span class="bg-dust"></span>
+  </div>
+
+<!-- ============ 视图一：规则介绍页（先阅读） ============ -->
+<div id="view-intro" class="view active">
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="logo">
+        <span class="logo-mark">
+          <svg viewBox="0 0 96 96" width="38" height="38" aria-hidden="true">
+            <defs>
+              <linearGradient id="nlgS" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9ed8b0"/><stop offset="1" stop-color="#4e9e6b"/></linearGradient>
+              <linearGradient id="nlgM" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7d98d"/><stop offset="1" stop-color="#dfa12e"/></linearGradient>
+              <linearGradient id="nlgA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5b48c"/><stop offset="1" stop-color="#d97444"/></linearGradient>
+              <linearGradient id="nlgW" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a9c8ee"/><stop offset="1" stop-color="#5c86c4"/></linearGradient>
+              <linearGradient id="nlgF" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c3a8f5"/><stop offset="1" stop-color="#7b5cd6"/></linearGradient>
+              <radialGradient id="nlgC" cx=".38" cy=".32" r=".9"><stop offset="0" stop-color="#a58af0"/><stop offset="1" stop-color="#5b3fb8"/></radialGradient>
+            </defs>
+            <g transform="translate(48,48)">
+              <path d="M0 -12.5 C6.6 -23.5 7.2 -35.5 0 -43 C-7.2 -35.5 -6.6 -23.5 0 -12.5 Z" fill="url(#nlgS)"/>
+              <path d="M0 -12.5 C6.6 -23.5 7.2 -35.5 0 -43 C-7.2 -35.5 -6.6 -23.5 0 -12.5 Z" transform="rotate(72)" fill="url(#nlgM)"/>
+              <path d="M0 -12.5 C6.6 -23.5 7.2 -35.5 0 -43 C-7.2 -35.5 -6.6 -23.5 0 -12.5 Z" transform="rotate(144)" fill="url(#nlgA)"/>
+              <path d="M0 -12.5 C6.6 -23.5 7.2 -35.5 0 -43 C-7.2 -35.5 -6.6 -23.5 0 -12.5 Z" transform="rotate(216)" fill="url(#nlgW)"/>
+              <path d="M0 -12.5 C6.6 -23.5 7.2 -35.5 0 -43 C-7.2 -35.5 -6.6 -23.5 0 -12.5 Z" transform="rotate(288)" fill="url(#nlgF)"/>
+            </g>
+            <circle cx="48" cy="48" r="13" fill="url(#nlgC)"/>
+            <circle cx="48" cy="48" r="13" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4"/>
+            <path d="M48 55 C48 51.2 47.1 48.4 44.6 46.6" stroke="#fff" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+            <path d="M44.6 46.6 C41.9 44.9 40.7 42.2 41.1 39.6 C43.8 40.7 45.5 43.3 45 46.4 Z" fill="#fff"/>
+            <path d="M48 55 C48 51.8 48.9 49.3 51.3 47.7" stroke="#fff" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+            <path d="M51.3 47.7 C53.8 46.5 54.9 44.5 54.7 42.2 C52.3 43.1 50.5 45.1 50.3 47.5 Z" fill="#fff" fill-opacity=".92"/>
+          </svg>
+        </span>
+        <span class="logo-text">第五季<i>·续种</i></span>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" type="button"
+              aria-label="打开导航菜单" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#rules">使用规则</a>
+        <a href="#seasons">四季机制</a>
+        <a href="#awaken">唤醒场景</a>
+        <a href="#skills">技能图谱</a>
+        <a href="#evidence">验证中心</a>
+        <a href="#votes">需求投票</a>
+        <a href="#stories">故事墙</a>
+        <a href="#archive">种子档案</a>
+        <button class="nav-plain" type="button" data-action="open-features">功能全景</button>
+        <button class="nav-plain" type="button" data-action="open-handbook">功能手册</button>
+        <button class="nav-cta" type="button" data-action="enter-chat">开始对话</button>
+      </div>
+      <div class="nav-auth" id="nav-auth">
+        <button class="nav-tour" id="nav-tour" type="button" data-action="start-tour" title="一步一步了解全部功能">📖 新手教程</button>
+        <button class="nav-auth-login" id="nav-auth-login" type="button" data-action="open-auth" hidden>登录 / 注册</button>
+        <div class="nav-auth-user" id="nav-auth-user" hidden>
+          <button class="nav-bell" type="button" data-action="open-inbox" title="我的信箱">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v13H8l-4 3V4z"/><path d="M8 9h8M8 12.5h5"/></svg>
+            <span class="bell-badge" id="bell-badge" hidden>0</span>
+          </button>
+          <button class="nav-bell" type="button" data-action="open-profile" title="我的画像">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.6"/><path d="M4.5 20c1.6-3.4 4.3-5 7.5-5s5.9 1.6 7.5 5"/></svg>
+          </button>
+          <span class="nav-user-name" id="nav-user-name">—</span>
+          <button class="nav-logout" type="button" data-action="logout" title="退出登录">退出</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-plant plant-left" aria-hidden="true">
+      <svg viewBox="0 0 120 160" width="120" height="160">
+        <path d="M60 158 C60 120 58 96 62 66" stroke="#7ea98b" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M62 96 C40 92 28 76 26 56 C48 58 62 72 62 96 Z" fill="#a8cbb2" opacity=".85"/>
+        <path d="M61 70 C80 64 90 48 90 28 C70 34 60 48 61 70 Z" fill="#8fbf9e" opacity=".9"/>
+        <circle cx="62" cy="62" r="5" fill="#e8b64c"/>
+        <circle cx="80" cy="30" r="2.4" fill="#e8b64c" opacity=".7"/>
+        <circle cx="34" cy="58" r="2" fill="#e8b64c" opacity=".6"/>
+      </svg>
+    </div>
+    <div class="hero-plant plant-right" aria-hidden="true">
+      <svg viewBox="0 0 120 160" width="120" height="160">
+        <path d="M60 158 C60 124 62 98 58 68" stroke="#7ea98b" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M58 100 C78 96 90 80 92 60 C70 62 58 76 58 100 Z" fill="#a8cbb2" opacity=".85"/>
+        <path d="M59 74 C40 68 30 52 30 32 C50 38 58 52 59 74 Z" fill="#8fbf9e" opacity=".9"/>
+        <circle cx="58" cy="64" r="5" fill="#e8b64c"/>
+        <circle cx="40" cy="34" r="2.4" fill="#e8b64c" opacity=".7"/>
+      </svg>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-emblem" aria-hidden="true">
+        <svg viewBox="0 0 96 96" width="84" height="84">
+          <defs>
+            <linearGradient id="elgS" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9ed8b0"/><stop offset="1" stop-color="#4e9e6b"/></linearGradient>
+            <linearGradient id="elgM" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7d98d"/><stop offset="1" stop-color="#dfa12e"/></linearGradient>
+            <linearGradient id="elgA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5b48c"/><stop offset="1" stop-color="#d97444"/></linearGradient>
+            <linearGradient id="elgW" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a9c8ee"/><stop offset="1" stop-color="#5c86c4"/></linearGradient>
+            <linearGradient id="elgF" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c3a8f5"/><stop offset="1" stop-color="#7b5cd6"/></linearGradient>
+            <radialGradient id="elgC" cx=".38" cy=".32" r=".9"><stop offset="0" stop-color="#a58af0"/><stop offset="1" stop-color="#5b3fb8"/></radialGradient>
+          </defs>
+          <g class="emblem-ring">
+            <g transform="translate(48,48)">
+              <path d="M0 -12.5 C6.6 -23.5 7.2 -35.5 0 -43 C-7.2 -35.5 -6.6 -23.5 0 -12.5 Z" fill="url(#elgS)"/>
+              <path d="M0 -12.5 C6.6 -23.5 7.2 -35.5 0 -43 C-7.2 -35.5 -6.6 -23.5 0 -12.5 Z" transform="rotate(72)" fill="url(#elgM)"/>
+              <path d="M0 -12.5 C6.6 -23.5 7.2 -35.5 0 -43 C-7.2 -35.5 -6.6 -23.5 0 -12.5 Z" transform="rotate(144)" fill="url(#elgA)"/>
+              <path d="M0 -12.5 C6.6 -23.5 7.2 -35.5 0 -43 C-7.2 -35.5 -6.6 -23.5 0 -12.5 Z" transform="rotate(216)" fill="url(#elgW)"/>
+              <path d="M0 -12.5 C6.6 -23.5 7.2 -35.5 0 -43 C-7.2 -35.5 -6.6 -23.5 0 -12.5 Z" transform="rotate(288)" fill="url(#elgF)"/>
+            </g>
+          </g>
+          <circle cx="48" cy="48" r="13" fill="url(#elgC)"/>
+          <circle cx="48" cy="48" r="13" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4"/>
+          <path d="M48 55 C48 51.2 47.1 48.4 44.6 46.6" stroke="#fff" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+          <path d="M44.6 46.6 C41.9 44.9 40.7 42.2 41.1 39.6 C43.8 40.7 45.5 43.3 45 46.4 Z" fill="#fff"/>
+          <path d="M48 55 C48 51.8 48.9 49.3 51.3 47.7" stroke="#fff" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+          <path d="M51.3 47.7 C53.8 46.5 54.9 44.5 54.7 42.2 C52.3 43.1 50.5 45.1 50.3 47.5 Z" fill="#fff" fill-opacity=".92"/>
+        </svg>
+      </div>
+      <span class="hero-badge">AI · 校园公共记忆与项目接力系统</span>
+      <div class="hero-title-ornament"><i></i><b>❋</b><i></i></div>
+      <h1 class="hero-art" id="hero-art"><span class="art-char">第</span><span class="art-char">五</span><span class="art-char">季</span><span class="dot">·</span><span class="art-char">续</span><span class="art-char">种</span><span class="art-halo" aria-hidden="true"></span><span class="art-glow" aria-hidden="true"></span><span class="art-particle p1" aria-hidden="true"></span><span class="art-particle p2" aria-hidden="true"></span><span class="art-particle p3" aria-hidden="true"></span><span class="art-particle p4" aria-hidden="true"></span><span class="art-particle p5" aria-hidden="true"></span><span class="art-particle p6" aria-hidden="true"></span><span class="art-particle p7" aria-hidden="true"></span><span class="art-particle p8" aria-hidden="true"></span><span class="art-particle p9" aria-hidden="true"></span><span class="art-particle p10" aria-hidden="true"></span><span class="art-particle p11" aria-hidden="true"></span><span class="art-particle p12" aria-hidden="true"></span></h1>
+      <div class="hero-title-ornament flip"><i></i><b>❋</b><i></i></div>
+      <p class="hero-sub" id="hero-sub" title="点击展开名字的寓意"><i class="hs-flower">✿</i><span class="hs-text">校园未竟梦想的 AI 传承智能体</span><i class="hs-flower">✿</i></p>
+      <p class="hero-name-meaning" id="hero-meaning" hidden>知你心意 · 颜映四季 —— 她叫<b class="nm-zhi">知</b><b class="nm-yan">颜</b>——懂得每颗种子的心事，也映照四季流转的色彩</p>
+      <p class="hero-slogan">春日提出，夏日行动，秋日沉淀，冬日守望；<br/>待到第五季，让未完成的美好重新发生。</p>
+      <div class="hero-season-strip">
+        <span class="hs-chip spring">🌱 春 · 萌芽</span>
+        <span class="hs-arrow">→</span>
+        <span class="hs-chip summer">☀️ 夏 · 生长</span>
+        <span class="hs-arrow">→</span>
+        <span class="hs-chip autumn">🍂 秋 · 沉淀</span>
+        <span class="hs-arrow">→</span>
+        <span class="hs-chip winter">❄️ 冬 · 蛰伏</span>
+        <span class="hs-arrow">→</span>
+        <span class="hs-chip fifth">✨ 第五季 · 续种</span>
+      </div>
+      <div class="hero-actions">
+        <button class="btn btn-primary" type="button" data-action="enter-chat">我已了解 · 进入对话</button>
+        <button class="btn btn-ghost" type="button" data-action="open-features">✦ 功能全景</button>
+        <a class="btn btn-ghost" href="#rules">使用规则</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b id="stat-users">-</b><span><i class="live-dot" aria-hidden="true"></i>已建档传承者</span></div>
+        <div class="stat"><b id="stat-projects">-</b><span>项目种子卡</span></div>
+        <div class="stat"><b id="stat-awaken">-</b><span>第五季·唤醒次数</span></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 四季笺 · 主题插图带 -->
+  <div class="season-illumination" aria-hidden="true">
+    <div class="si-flow">
+      <svg class="si-line" viewBox="0 0 1200 90" preserveAspectRatio="none">
+        <path d="M0 62 C 150 20, 300 88, 450 46 S 750 12, 900 52 S 1120 80, 1200 34"
+              fill="none" stroke="url(#siGrad)" stroke-width="1.6" stroke-dasharray="7 8" stroke-linecap="round"/>
+        <defs>
+          <linearGradient id="siGrad" x1="0" x2="1">
+            <stop offset="0" stop-color="#4e9e6b" stop-opacity=".55"/>
+            <stop offset=".3" stop-color="#dfa12e" stop-opacity=".55"/>
+            <stop offset=".55" stop-color="#d97444" stop-opacity=".55"/>
+            <stop offset=".8" stop-color="#5c86c4" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#7b5cd6" stop-opacity=".65"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <div class="si-icons">
+      <div class="si-item si-spring">
+        <svg viewBox="0 0 64 64">
+          <path d="M14 52 C 20 36, 26 24, 44 14" stroke="#4e9e6b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <path d="M24 34 C 22 26, 26 20, 33 18 C 34 26, 30 32, 24 34 Z" fill="#7cc496" opacity=".85"/>
+          <path d="M32 24 C 34 16, 41 12, 48 13 C 46 21, 40 26, 32 24 Z" fill="#a8dcb8" opacity=".9"/>
+          <circle cx="46" cy="20" r="3.4" fill="#f0b429"/>
+          <circle cx="20" cy="46" r="2.2" fill="#7cc496"/>
+          <circle cx="30" cy="42" r="1.6" fill="#a8dcb8"/>
+        </svg>
+        <span class="si-cap">萌芽</span>
+      </div>
+      <div class="si-item si-summer">
+        <svg viewBox="0 0 64 64">
+          <circle cx="30" cy="30" r="10.5" fill="#f6c445"/>
+          <circle cx="30" cy="30" r="10.5" fill="none" stroke="#dfa12e" stroke-width="1.6" stroke-dasharray="3 4"/>
+          <g stroke="#dfa12e" stroke-width="2" stroke-linecap="round">
+            <path d="M30 12 v-5"/><path d="M30 48 v5"/><path d="M12 30 h-5"/><path d="M48 30 h5"/>
+            <path d="M17 17 l-3.6-3.6"/><path d="M43 17 l3.6-3.6"/>
+            <path d="M17 43 l-3.6 3.6"/><path d="M43 43 l3.6 3.6"/>
+          </g>
+          <path d="M46 44 q 6 -5 11 -1 q -4 6 -11 1 Z" fill="#a8dcb8" opacity=".8"/>
+          <path d="M50 50 q 5 -4 9 -1 q -3 5 -9 1 Z" fill="#7cc496" opacity=".7"/>
+        </svg>
+        <span class="si-cap">生长</span>
+      </div>
+      <div class="si-item si-fifth">
+        <svg viewBox="0 0 64 64">
+          <g transform="translate(32,32)">
+            <path d="M0 -9 C4.8 -17 5.2 -26 0 -31.5 C-5.2 -26 -4.8 -17 0 -9 Z" fill="#4e9e6b"/>
+            <path d="M0 -9 C4.8 -17 5.2 -26 0 -31.5 C-5.2 -26 -4.8 -17 0 -9 Z" transform="rotate(72)" fill="#dfa12e"/>
+            <path d="M0 -9 C4.8 -17 5.2 -26 0 -31.5 C-5.2 -26 -4.8 -17 0 -9 Z" transform="rotate(144)" fill="#d97444"/>
+            <path d="M0 -9 C4.8 -17 5.2 -26 0 -31.5 C-5.2 -26 -4.8 -17 0 -9 Z" transform="rotate(216)" fill="#5c86c4"/>
+            <path d="M0 -9 C4.8 -17 5.2 -26 0 -31.5 C-5.2 -26 -4.8 -17 0 -9 Z" transform="rotate(288)" fill="#7b5cd6"/>
+          </g>
+          <circle cx="32" cy="32" r="9.5" fill="#5b3fb8"/>
+          <path d="M32 37 C32 34 31 32 29.2 30.8" stroke="#fff" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+          <path d="M29.2 30.8 C27.2 29.6 26.4 27.6 26.7 25.7 C28.7 26.5 29.9 28.4 29.5 30.5 Z" fill="#fff"/>
+        </svg>
+        <span class="si-cap si-cap-fifth">续种</span>
+      </div>
+      <div class="si-item si-autumn">
+        <svg viewBox="0 0 64 64">
+          <path d="M32 8 C 34 22, 42 30, 46 40 C 44 50, 36 56, 32 56 C 28 56, 20 50, 18 40 C 22 30, 30 22, 32 8 Z"
+                fill="#f0b429" opacity=".9"/>
+          <path d="M32 10 C 33 24, 40 32, 44 41 C 42 49, 35 54, 32 54" fill="none" stroke="#d97444" stroke-width="1.8"/>
+          <path d="M32 56 C 30 52, 26 50, 22 50 M32 56 C 33 52, 37 50, 41 50 M32 54 C 32 48, 32 42, 32 36"
+                stroke="#d97444" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+          <circle cx="50" cy="20" r="2" fill="#e8927c"/>
+          <circle cx="14" cy="26" r="1.6" fill="#f0b429"/>
+        </svg>
+        <span class="si-cap">沉淀</span>
+      </div>
+      <div class="si-item si-winter">
+        <svg viewBox="0 0 64 64">
+          <g stroke="#5c86c4" stroke-width="2" stroke-linecap="round" fill="none">
+            <path d="M32 6 v52 M10 18 l44 28 M54 18 l-44 28"/>
+            <path d="M32 14 l-5 -4 M32 14 l5 -4 M32 14 l-2.5 -6 M32 14 l2.5 -6"/>
+            <path d="M32 50 l-5 4 M32 50 l5 4"/>
+            <path d="M17.5 26.5 l-6.4 -1 M17.5 26.5 l-1 -6.4 M46.5 37.5 l6.4 1 M46.5 37.5 l1 6.4"/>
+            <path d="M17.5 37.5 l-6.4 1 M17.5 37.5 l-1 6.4 M46.5 26.5 l6.4 -1 M46.5 26.5 l1 -6.4"/>
+          </g>
+          <circle cx="32" cy="32" r="3.6" fill="#8fb3dd"/>
+        </svg>
+        <span class="si-cap">蛰伏</span>
+      </div>
+    </div>
+    <p class="si-motto">春生 · 夏长 · 秋收 · 冬藏 —— 第五季，让未竟重新发生</p>
+  </div>
+
+  <!-- 使用规则 -->
+  <section class="section rules-section" id="rules">
+    <h2 class="section-title">使用规则</h2>
+    <p class="section-sub">开始对话前，请花一分钟了解「第五季」的相处方式</p>
+    <div class="rules-card">
+      <ol class="rules-list">
+        <li class="rule-item">
+          <div class="rule-head">
+            <span class="rule-no">01</span>
+            <b>初次见面，请先自我介绍</b>
+          </div>
+          <p>告诉智能体你的昵称、年级专业、擅长技能与兴趣，它会为你建立专属校园档案。档案是后续一切功能的起点——匹配伙伴、唤醒项目都依赖它，也可以随时补充更新。</p>
+        </li>
+        <li class="rule-item">
+          <div class="rule-head">
+            <span class="rule-no">02</span>
+            <b>像朋友聊天一样说话</b>
+          </div>
+          <p>记待办、存灵感、找项目、找人组队，直接用自然语言表达。例如：「记个待办，周五下午 6 点前交社团招新海报文案」。</p>
+        </li>
+        <li class="rule-item">
+          <div class="rule-head">
+            <span class="rule-no">03</span>
+            <b>想法先评估，确认后入库</b>
+          </div>
+          <p>你描述的创意会被梳理为结构化的「项目种子卡」，智能体会先呈现完整预览，经你确认后方才正式创建——未经确认不会自行建档。</p>
+        </li>
+        <li class="rule-item">
+          <div class="rule-head">
+            <span class="rule-no">04</span>
+            <b>休眠项目可以接棒</b>
+          </div>
+          <p>输入「看看休眠项目」，即可浏览校园记忆库中被搁置的往届项目。接棒前会完整呈现交接包——成果、经验、踩坑、遗留问题与可复用资源，确认后你将成为项目的新任负责人。</p>
+        </li>
+        <li class="rule-item">
+          <div class="rule-head">
+            <span class="rule-no">05</span>
+            <b>数据真实留存</b>
+          </div>
+          <p>你的档案、待办、灵感与项目进展都会真实写入数据库，换设备、隔学期都不会凭空消失——这正是「传承」的基础。</p>
+        </li>
+        <li class="rule-item">
+          <div class="rule-head">
+            <span class="rule-no">06</span>
+            <b>边界说明</b>
+          </div>
+          <p>智能体专注校园创意沉淀与项目传承场景，与产品定位无关的请求（如编写代码、闲聊解题等）将被礼貌拒绝。</p>
+        </li>
+      </ol>
+      <div class="rules-cta">
+        <button class="btn btn-primary btn-start" data-action="enter-chat">我已阅读并了解规则 · 开始对话</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 四季机制：环绕布局 -->
+  <section class="section season-section" id="seasons">
+    <h2 class="section-title">四季机制 · 环形生命周期</h2>
+    <p class="section-sub">春夏秋冬环绕着「第五季」——每个创意走完四季后，在这里被重新唤醒。点击任意季节，查看它的故事。</p>
+
+    <div class="season-orbit" id="season-orbit">
+      <!-- 轨道光子环 -->
+      <div class="orbit-ring"></div>
+      <div class="comet-orbit"><span class="comet"></span></div>
+      <div class="comet-orbit comet-orbit-2"><span class="comet comet-warm"></span></div>
+
+      <!-- 中央：第五季 -->
+      <div class="season-core" data-season="fifth" role="button" tabindex="0">
+        <div class="core-halo"></div>
+        <div class="core-halo core-halo-2"></div>
+        <div class="core-flare" aria-hidden="true"></div>
+        <div class="core-particles">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="core-body">
+          <span class="core-tag">五</span>
+          <h3>第五季 · 续种</h3>
+          <p class="core-slogan">在四季之外，<br/>让未竟重新发生</p>
+          <span class="core-hint">✨ 点击了解唤醒机制</span>
+        </div>
+      </div>
+
+      <!-- 四角：春夏秋冬 -->
+      <div class="season-node s-pos-spring" data-season="spring" role="button" tabindex="0">
+        <span class="season-tag">春</span>
+        <span class="season-watermark" aria-hidden="true">春</span>
+        <div class="season-scene" aria-hidden="true"><i class="sc sc-1"></i><i class="sc sc-2"></i><i class="sc sc-3"></i></div>
+        <div class="node-emoji">🌱</div>
+        <h3>春 · 萌芽</h3>
+        <p>一粒不肯沉默的种子：灵感被梳理成「项目种子卡」，正式入库生根。</p>
+        <span class="node-more">了解春的故事</span>
+      </div>
+
+      <div class="season-node s-pos-summer" data-season="summer" role="button" tabindex="0">
+        <span class="season-tag">夏</span>
+        <span class="season-watermark" aria-hidden="true">夏</span>
+        <div class="season-scene" aria-hidden="true"><i class="sc sc-1"></i><i class="sc sc-2"></i><i class="sc sc-3"></i></div>
+        <div class="node-emoji">☀️</div>
+        <h3>夏 · 生长</h3>
+        <p>蝉声与汗水浇灌现实：AI 匹配互补伙伴，组队推进稳步生长。</p>
+        <span class="node-more">了解夏的故事</span>
+      </div>
+
+      <div class="season-node s-pos-autumn" data-season="autumn" role="button" tabindex="0">
+        <span class="season-tag">秋</span>
+        <span class="season-watermark" aria-hidden="true">秋</span>
+        <div class="season-scene" aria-hidden="true"><i class="sc sc-1"></i><i class="sc sc-2"></i><i class="sc sc-3"></i></div>
+        <div class="node-emoji">🍂</div>
+        <h3>秋 · 沉淀</h3>
+        <p>落叶归根处最肥沃：成果与踩坑被提炼成完整交接资料包。</p>
+        <span class="node-more">了解秋的故事</span>
+      </div>
+
+      <div class="season-node s-pos-winter" data-season="winter" role="button" tabindex="0">
+        <span class="season-tag">冬</span>
+        <span class="season-watermark" aria-hidden="true">冬</span>
+        <div class="season-scene" aria-hidden="true"><i class="sc sc-1"></i><i class="sc sc-2"></i><i class="sc sc-3"></i></div>
+        <div class="node-emoji">❄️</div>
+        <h3>冬 · 蛰伏</h3>
+        <p>雪落无声，种子在等待：项目全量归档休眠，静候下一双手。</p>
+        <span class="node-more">了解冬的故事</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 唤醒场景演示：一次真实的第五季 -->
+  <section class="section awaken-section" id="awaken">
+    <h2 class="section-title">唤醒场景 · 一次真实的第五季</h2>
+    <p class="section-sub">三年前被搁置的一颗种子，如何在新一届学生手中重新生长——「第五季」从不泛泛推荐，而是精准唤醒它</p>
+
+    <!-- 阶段流转条 -->
+    <div class="awaken-strip" aria-hidden="true">
+      <span class="aw-chip aw-spring">🌱 三年前 · 春 · 播种</span>
+      <span class="aw-arrow">→</span>
+      <span class="aw-chip aw-winter">❄️ 毕业季 · 冬 · 蛰伏</span>
+      <span class="aw-arrow">→</span>
+      <span class="aw-chip aw-spring">🌱 今年 · 春 · 新生</span>
+      <span class="aw-arrow">→</span>
+      <span class="aw-chip aw-fifth">✨ 第五季 · 唤醒</span>
+    </div>
+
+    <div class="awaken-scene">
+      <!-- 左：休眠种子档案 -->
+      <div class="awaken-seed">
+        <div class="awaken-seed-head">
+          <span class="awaken-badge">❄️ 冬 · 蛰伏中</span>
+          <span class="awaken-no">休眠种子 · 待接棒</span>
+        </div>
+        <h3>为视障同学制作校园无障碍地图</h3>
+        <p class="awaken-seed-desc">三年前由学生发起，仅完成两栋教学楼的地图便因发起人毕业而暂停。项目不是「失败」，而是一颗安静等待接棒的休眠种子。</p>
+        <ul class="awaken-seed-left">
+          <li>
+            <span aria-hidden="true">📋</span>
+            <div><b>留下一份调研</b><p>校园无障碍设施的实地勘测记录</p></div>
+          </li>
+          <li>
+            <span aria-hidden="true">⚠️</span>
+            <div><b>留下几项未解决的问题</b><p>坡道缺失点位、电梯盲区清单</p></div>
+          </li>
+          <li>
+            <span aria-hidden="true">🗺️</span>
+            <div><b>留下一个原型</b><p>画到一半的导览图与设施数据表</p></div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 右：唤醒对话 -->
+      <div class="awaken-chat">
+        <div class="aw-row aw-row-user">
+          <div class="aw-bubble aw-user">我会一点前端，想做点对校园有用的事。</div>
+        </div>
+        <div class="aw-row aw-row-bot">
+          <div class="aw-bubble aw-bot">三年前，有同学发起「为视障同学制作校园无障碍地图」，只完成两栋教学楼的地图，就因发起人毕业而暂停了。她们留下的不只是半张地图——还有一份完整的调研、几项没解决的问题，和一个画到一半的原型。</div>
+        </div>
+        <div class="aw-row aw-row-bot">
+          <div class="aw-bubble aw-bot">你说你会前端、还想做点对校园有用的事，正好接上这条断掉的线——接手后，你不需要从零开始。</div>
+        </div>
+        <div class="aw-row aw-row-bot">
+          <div class="aw-bubble aw-bot">建议你先用一周读完旧团队的调研和原型，再把剩下几栋楼的数据补齐；我可以帮你匹配一位了解无障碍需求的同学，一起把这件事做完。</div>
+        </div>
+        <div class="awaken-result">
+          <span class="aw-result-tag">✦ 匹配一位了解无障碍需求的同学</span>
+          <span class="aw-result-arrow" aria-hidden="true">→</span>
+          <span class="aw-result-tag">旧项目在新团队手中继续生长</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 双板块 -->
+  <section class="section" id="panels">
+    <h2 class="section-title">双板块能力</h2>
+    <p class="section-sub">个人成长与校园传承，相辅相成 · 点击任意能力可查看详细介绍与用法</p>
+    <div class="feature-grid">
+      <div class="feature-panel fp-personal">
+        <div class="panel-head">
+          <span class="panel-icon" aria-hidden="true">🌱</span>
+          <div class="panel-name">
+            <b>个人板块</b>
+            <i>你的校园第二大脑</i>
+          </div>
+          <span class="panel-glow" aria-hidden="true"></span>
+        </div>
+        <ul class="feature-list">
+          <li data-feature="profile" role="button" tabindex="0">
+            <span class="fl-ico" aria-hidden="true">📇</span>
+            <div class="fl-body"><b>档案建档</b><p>技能、兴趣、年级专业，一份数字画像</p><i class="fl-more">详情 →</i></div>
+          </li>
+          <li data-feature="todo" role="button" tabindex="0">
+            <span class="fl-ico" aria-hidden="true">🗒️</span>
+            <div class="fl-body"><b>待办管理</b><p>自然语言增改待办，支持关联项目</p><i class="fl-more">详情 →</i></div>
+          </li>
+          <li data-feature="inspiration" role="button" tabindex="0">
+            <span class="fl-ico" aria-hidden="true">💡</span>
+            <div class="fl-body"><b>灵感库</b><p>随手记录碎片想法，随时转化为正式项目</p><i class="fl-more">详情 →</i></div>
+          </li>
+          <li data-feature="mentor" role="button" tabindex="0">
+            <span class="fl-ico" aria-hidden="true">🤝</span>
+            <div class="fl-body"><b>前辈连接</b><p>同方向学长学姐，可被推荐给后来人</p><i class="fl-more">详情 →</i></div>
+          </li>
+        </ul>
+      </div>
+      <div class="feature-panel fp-campus">
+        <div class="panel-head">
+          <span class="panel-icon" aria-hidden="true">🏫</span>
+          <div class="panel-name">
+            <b>校园板块</b>
+            <i>公共记忆与接力系统</i>
+          </div>
+          <span class="panel-glow" aria-hidden="true"></span>
+        </div>
+        <ul class="feature-list">
+          <li data-feature="seedlib" role="button" tabindex="0">
+            <span class="fl-ico" aria-hidden="true">🗂️</span>
+            <div class="fl-body"><b>项目种子库</b><p>标准化收录校内各类创意与未竟项目</p><i class="fl-more">详情 →</i></div>
+          </li>
+          <li data-feature="handover" role="button" tabindex="0">
+            <span class="fl-ico" aria-hidden="true">📦</span>
+            <div class="fl-body"><b>交接包生成</b><p>AI 提炼成果、经验、踩坑与遗留问题</p><i class="fl-more">详情 →</i></div>
+          </li>
+          <li data-feature="match" role="button" tabindex="0">
+            <span class="fl-ico" aria-hidden="true">🔗</span>
+            <div class="fl-body"><b>六维匹配</b><p>可解释的双向推荐，每一分都有依据</p><i class="fl-more">详情 →</i></div>
+          </li>
+          <li data-feature="awaken" role="button" tabindex="0">
+            <span class="fl-ico" aria-hidden="true">✨</span>
+            <div class="fl-body"><b>唤醒接棒</b><p>休眠项目在新一届学生手中重新落地</p><i class="fl-more">详情 →</i></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 校园技能图谱 -->
+  <section class="section skills-section" id="skills">
+    <h2 class="section-title">技能图谱大全</h2>
+    <p class="section-sub">尽可能全地收录项目需要的每一项技能——供需实时对比，点开任意技能，看看它正在被哪些项目需要（进行中 · 休眠 · 已完成传承皆有）</p>
+    <div class="skills-card">
+      <div class="skills-legend">
+        <span class="lg-item"><i class="lg-dot lg-demand"></i>项目需求</span>
+        <span class="lg-item"><i class="lg-dot lg-supply"></i>同学供给</span>
+        <span class="lg-item lg-gap">正值=稀缺能力（值得招募）· 负值=富余能力（适合发起项目）</span>
+        <span class="lg-item">👆 点击技能行，查看可参与的项目</span>
+      </div>
+      <div class="skills-rows" id="skills-rows">
+        <div class="skills-empty" id="skills-empty">正在从记忆库统计校园能力供需…</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 决赛验证中心：实时运行证据与跨周期待验证指标严格分开 -->
+  <section class="section evidence-section" id="evidence">
+    <div class="evidence-head">
+      <div>
+        <span class="evidence-kicker">EVIDENCE, NOT PROMISES</span>
+        <h2 class="section-title">验证中心 · 让传承可被检验</h2>
+        <p class="section-sub">运行记录证明“流程能走通”；跨届试点才回答“传承是否长期有效”。我们不混淆两者。</p>
+      </div>
+      <span class="evidence-source" id="evidence-source">正在读取真实数据…</span>
+    </div>
+    <div class="evidence-grid">
+      <article class="evidence-card evidence-live">
+        <b>当前运行证据</b>
+        <div class="evidence-metrics">
+          <span><strong id="ev-projects">—</strong><small>项目档案</small></span>
+          <span><strong id="ev-coverage">—</strong><small>休眠项目交接包覆盖率</small></span>
+          <span><strong id="ev-awaken">—</strong><small>唤醒记录</small></span>
+          <span><strong id="ev-stories">—</strong><small>传承故事</small></span>
+        </div>
+        <p>数字由部署数据库实时聚合，不叠加模拟增长；只能说明产品流程与留痕机制已经可运行。</p>
+      </article>
+      <article class="evidence-card evidence-pilot">
+        <b>真实续种试点 · 已完成</b>
+        <p class="pilot-status" id="pilot-status">正在读取试点实录…</p>
+        <div class="pilot-cases" id="pilot-cases"></div>
+        <ul id="pilot-targets">
+          <li>交接包资料可用率 ≥ 80%</li>
+          <li>接棒后 30 天仍有有效动态 ≥ 60%</li>
+          <li>接棒者首个里程碑完成率 ≥ 50%</li>
+        </ul>
+        <a class="evidence-link" href="/docs/真实试点方案.md" target="_blank" rel="noopener">查看试点口径与复盘方法 →</a>
+      </article>
+      <article class="evidence-card">
+        <b>匹配不是黑箱 · 六维可解释</b>
+        <p>技能互补 40 · 兴趣与议题 25 · 年级阶梯 10 · 传承准备度 10 · 社交邻近 8 · 时间投入 7（满分 100）。未知维度不臆测补分，并显示能力缺口与风险；临近毕业自动降档提示。</p>
+        <p class="boundary-note">接棒须走三步确认：接棒意愿 → 原负责人核验授权范围与资源有效期 → 双方确认后唤醒。推荐分只负责解释，不自动放行。</p>
+      </article>
+      <article class="evidence-card">
+        <b>授权与团队权益边界</b>
+        <ul>
+          <li>原团队保留署名权与成果归属；交接不等于版权转让。</li>
+          <li>资源按“公开 / 校内 / 需授权”分级，敏感材料不随项目自动转移。</li>
+          <li>联系人与访问凭证设置有效期；接棒前再次确认用途和可见范围。</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- 交接包实探：直接读库里的交接包原文，不是介绍 -->
+  <section class="section handover-section" id="handover">
+    <h2 class="section-title">交接包实探 · 不止是介绍</h2>
+    <p class="section-sub">点开任意一份交接包：成果清单 / 运营经验 / 踩坑记录 / 待办事项 / 可复用资源原文直读，附授权范围、资源有效期与原团队权益三声明——接棒者拿到的就是这些。</p>
+    <div class="handover-layout">
+      <div class="handover-list" id="handover-list">正在读取交接包清单…</div>
+      <div class="handover-detail" id="handover-detail">
+        <div class="handover-detail-empty">← 点击左侧任意项目，查看交接包全文</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 休眠种子 · 需求投票 -->
+  <section class="section votes-section" id="votes">
+    <h2 class="section-title">休眠种子 · 需求投票</h2>
+    <p class="section-sub">「我也想用」是最响亮的唤醒信号——票数越高的休眠项目，越优先被推荐接棒（投票需先与知颜建档）</p>
+    <div class="votes-grid" id="votes-grid">
+      <div class="votes-empty" id="votes-empty">正在唤醒休眠种子清单…</div>
+    </div>
+  </section>
+
+  <!-- v6.2 项目引入：搜索引入 + 种子记忆卡 + 接棒补充档案 -->
+  <section class="section import-section" id="import">
+    <h2 class="section-title">项目引入 · 把它带进你的种子库</h2>
+    <p class="section-sub">输入关键词（领域 / 技能 / 项目名），找到想接棒的项目：引入后它进入你的种子库，接棒将以新团队名义补充档案——原团队的发起人、交接包与贡献记录完整保留</p>
+    <div class="import-bar">
+      <input type="text" id="import-input" class="import-input" placeholder="试试搜：科普 / 环保 / 贴纸 / 观星…" maxlength="30">
+      <button type="button" id="import-search-btn" class="import-btn">🔍 搜索项目</button>
+    </div>
+    <div class="import-results" id="import-results">
+      <div class="import-hint">输入项目名可直接命中该条项目；输入领域或技能会列出相关的项目，点击卡片查看完整种子记忆卡</div>
+    </div>
+  </section>
+
+  <!-- v8.0 种子库：个人种子卡（灵感）+ 公开种子卡（项目） -->
+  <section class="section seeds-section" id="seeds">
+    <h2 class="section-title">种子库 · 我的灵感与公开项目</h2>
+    <p class="section-sub">个人种子卡收藏零碎灵感（编号=传承码-序号，仅你可见）；公开种子卡是所有项目的档案（编号 FS-#N），可浏览、组队、接棒</p>
+    <div class="seeds-tabs">
+      <button type="button" class="seeds-tab active" data-seeds-tab="mine">🌱 我的种子卡</button>
+      <button type="button" class="seeds-tab" data-seeds-tab="public">🌳 公开种子库</button>
+      <button type="button" class="seeds-tab" data-seeds-tab="projects">📁 我的项目库</button>
+    </div>
+    <div id="seeds-mine-panel">
+      <div class="seeds-hint" id="seeds-mine-hint">登录后即可查看你的个人种子卡（对话中把灵感告诉知颜，她会自动存入）</div>
+      <div class="seeds-grid" id="seeds-mine-grid"></div>
+      <h3 class="teams-sub seeds-intro-sub">🤝 我引入的公开种子卡</h3>
+      <p class="section-sub seeds-intro-note">你在候选池/公开种子库点「引入」的公开项目，会集中出现在这里——它们也是你的传承足迹</p>
+      <div class="seeds-grid" id="seeds-intro-grid"></div>
+    </div>
+    <div id="seeds-public-panel" hidden>
+      <div class="seeds-grid" id="seeds-public-grid"></div>
+      <button type="button" class="seeds-fold-toggle" id="seeds-public-toggle" hidden>展开全部公开种子卡</button>
+    </div>
+    <div id="seeds-projects-panel" hidden>
+      <p class="section-sub seeds-intro-note">项目库与种子卡不同：这里存放你自己的<b>完整项目档案</b>（仅你可见）——可以是未完成的想法、正在接棒的项目。可以让知颜为它生成交接包，选择公开后其他人就能在公开种子库获取</p>
+      <div class="pj-toolbar">
+        <button type="button" class="recruit-btn" id="pj-new-btn">＋ 新建项目档案</button>
+        <span class="teams-toolbar-hint">把项目细节告诉知颜也能建档：试试说「帮我在项目库里记录一个新项目」</span>
+      </div>
+      <div class="seeds-grid" id="pj-grid"><div class="votes-empty">正在加载你的项目库…</div></div>
+    </div>
+  </section>
+
+  <!-- v8.0 组队空间：招募 + 我的团队 + 协作空间 -->
+  <section class="section teams-section" id="teams">
+    <h2 class="section-title">组队空间 · 招募与协作</h2>
+    <p class="section-sub">上传你的招募海报或公开种子卡发起招募；申请通过后进入团队协作空间——知颜与你们同队，保留团队的共同记忆</p>
+    <div class="teams-toolbar">
+      <button type="button" class="recruit-btn" data-action="open-recruit">🖼️ 发布招募</button>
+      <span class="teams-toolbar-hint">招募海报对所有用户可见；也可以在项目种子卡里点「发起组队」关联项目</span>
+    </div>
+    <div id="teams-my">
+      <h3 class="teams-sub">我的团队</h3>
+      <div class="teams-grid" id="my-teams-grid"><div class="votes-empty">登录后查看你的团队</div></div>
+    </div>
+    <h3 class="teams-sub">招募区 · 所有队伍</h3>
+    <div class="teams-grid" id="teams-grid">
+      <div class="votes-empty">正在加载招募中的团队…</div>
+    </div>
+  </section>
+
+  <!-- 传承故事墙 -->
+  <section class="section stories-section" id="stories">
+    <h2 class="section-title">传承故事墙</h2>
+    <p class="section-sub">每一次「唤醒接棒」，都会在这里留下一张真实的传承故事卡——不是案例集，是这个系统里正在发生的事</p>
+    <div class="stories-grid" id="stories-grid">
+      <div class="stories-empty" id="stories-empty">故事墙还空着。下一次唤醒接棒会写下第一张故事卡。</div>
+    </div>
+    <div class="leaderboard-strip" id="leaderboard-strip" hidden>
+      <span class="lb-title">🏅 传承者风云榜</span>
+      <div class="lb-list" id="lb-list"></div>
+      <button type="button" class="lb-open-btn" data-lb-open>📋 完整榜单与积分规则</button>
+    </div>
+  </section>
+
+  <!-- 种子档案墙 -->
+  <section class="section archive-section" id="archive">
+    <h2 class="section-title">记忆库 · 种子档案墙</h2>
+    <p class="section-sub">整理自公开报道的真实校园传承故事——每一份未竟或圆满，都值得被续写</p>
+    <div class="archive-grid">
+
+      <article class="archive-card">
+        <div class="archive-top">
+          <span class="archive-no">FS-001</span>
+          <span class="archive-badge full">● 完整传承</span>
+        </div>
+        <h3>无障碍校园地图</h3>
+        <p class="archive-school">清华大学 · 学生无障碍研究协会</p>
+        <p class="archive-desc">轮椅上的少年们以六载春秋接力测绘无障碍校园地图，标注校内通道与设施详情，三任会长薪火相传，让校园对每一个人温柔可达。</p>
+        <div class="archive-tags"><span>#无障碍</span><span>#接力测绘</span></div>
+        <p class="archive-stat">⏳ 跨届接力 6 年</p>
+        <a class="archive-link" href="https://qhbk.tsinghua.edu.cn/xqh/2024-12/13/content_99183544.html" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card">
+        <div class="archive-top">
+          <span class="archive-no">FS-002</span>
+          <span class="archive-badge full">● 完整传承</span>
+        </div>
+        <h3>「向云端」手绘校园地图</h3>
+        <p class="archive-school">湖北商贸学院 · 艺术与传媒学院</p>
+        <p class="archive-desc">自 2015 年航母版启程，至 2023 年「向云端」9.0 版，历届学长学姐年年重绘手绘地图赠予新生，九年九版，笔尖流转间定格校园变迁。</p>
+        <div class="archive-tags"><span>#文创</span><span>#迎新</span></div>
+        <p class="archive-stat">⏳ 迭代 9 个版本</p>
+        <a class="archive-link" href="http://www.eol.cn/hubei/hubgd/202309/t20230906_2459789.shtml" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card">
+        <div class="archive-top">
+          <span class="archive-no">FS-003</span>
+          <span class="archive-badge full">● 完整传承</span>
+        </div>
+        <h3>「予她同行」互助盒</h3>
+        <p class="archive-school">厦门工学院 · 学生心理委员会</p>
+        <p class="archive-desc">从藏在袖口的一片卫生巾，长成覆盖全校的互助网络。每届换届均以工作本记录遗留事项——「很多事无法一年做完，需要一届届完善」。</p>
+        <div class="archive-tags"><span>#互助</span><span>#制度化</span></div>
+        <p class="archive-stat">⏳ 三届温柔接力</p>
+        <a class="archive-link" href="https://www.xit.edu.cn/alumni/2026/0810/c746a92218/page.htm" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card">
+        <div class="archive-top">
+          <span class="archive-no">FS-004</span>
+          <span class="archive-badge full">● 完整传承</span>
+        </div>
+        <h3>「兴华同行」公益助学</h3>
+        <p class="archive-school">清华大学 · 经管学院</p>
+        <p class="archive-desc">传承赵家和教授的「炭火精神」，公益云课堂行至八季、惠及五万余名高中生；昔日受助学子入学清华后，又接棒成为云课堂支队长。</p>
+        <div class="archive-tags"><span>#支教</span><span>#炭火精神</span></div>
+        <p class="archive-stat">⏳ 云课堂 8 季</p>
+        <a class="archive-link" href="https://www.tsinghua.edu.cn/info/1177/105997.htm" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card">
+        <div class="archive-top">
+          <span class="archive-no">FS-009</span>
+          <span class="archive-badge full">● 完整传承</span>
+        </div>
+        <h3>绿格公益治沙团</h3>
+        <p class="archive-school">上海交通大学</p>
+        <p class="archive-desc">十年奔赴西北大漠种下百万株梭梭，「直到风沙止步」。每年毕业季的授旗仪式，让治沙的接力棒在一届届学子手中传递。</p>
+        <div class="archive-tags"><span>#生态</span><span>#授旗传承</span></div>
+        <p class="archive-stat">⏳ 治沙接力 10 年</p>
+        <a class="archive-link" href="http://m.toutiao.com/group/7647849820190671394/" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card">
+        <div class="archive-top">
+          <span class="archive-no">FS-010</span>
+          <span class="archive-badge full">● 完整传承</span>
+        </div>
+        <h3>「微爱小院」流浪动物救助</h3>
+        <p class="archive-school">唐山职业技术学院 · 微志愿服务队</p>
+        <p class="archive-desc">十年守护一座流浪动物的「微爱小院」，喂养、救治、寻家环环相扣，依托「老带新」机制让善意届届相传，从未断档。</p>
+        <div class="archive-tags"><span>#救助</span><span>#老带新</span></div>
+        <p class="archive-stat">⏳ 坚守 10 年</p>
+        <a class="archive-link" href="https://zhb.hebccw.cn/system/2026/04/23/102175454.shtml" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card">
+        <div class="archive-top">
+          <span class="archive-no">FS-011</span>
+          <span class="archive-badge full">● 完整传承</span>
+        </div>
+        <h3>「善行100」爱心包裹</h3>
+        <p class="archive-school">四川大学 · 大学生自强社</p>
+        <p class="archive-desc">十余年劝募接力，一届届学子走上街头为山区儿童募集爱心包裹，累计动员数万人次，把冬日的暖意年复一年送往大山。</p>
+        <div class="archive-tags"><span>#劝募</span><span>#公益接力</span></div>
+        <p class="archive-stat">⏳ 劝募 10 余年</p>
+        <a class="archive-link" href="https://xgb.scu.edu.cn/info/1002/5279.htm" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-012</span>
+          <span class="archive-badge full">● 完整传承</span>
+        </div>
+        <h3>烛心社永平支教</h3>
+        <p class="archive-school">复旦大学</p>
+        <p class="archive-desc">连续十年奔赴云南永平，打磨出 36 门特色课程，为山区孩子点亮课堂。毕业季的支教总结册，是留给下一届最厚重的行囊。</p>
+        <div class="archive-tags"><span>#支教</span><span>#课程沉淀</span></div>
+        <p class="archive-stat">⏳ 十年不辍</p>
+        <a class="archive-link" href="https://newsroom.fudan.edu.cn/_upload/article/files/44/41/3db0736e4f70966f6bf924cf68a4/c9fdf877-9de1-409b-82e2-6f2626966adc.pdf" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-013</span>
+          <span class="archive-badge full">● 完整传承</span>
+        </div>
+        <h3>「点蓝」助残社团</h3>
+        <p class="archive-school">北京联合大学 · 商务学院</p>
+        <p class="archive-desc">十年助残志愿服务风雨无阻，从陪伴出行到艺术共创，用专业与温度织就一张守护之网，并在十周年之际完成社团经验的整体梳理。</p>
+        <div class="archive-tags"><span>#助残</span><span>#十年沉淀</span></div>
+        <p class="archive-stat">⏳ 服务 10 年</p>
+        <a class="archive-link" href="https://www.bc.buu.edu.cn/art/2026/6/17/art_30247_832560.html" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-005</span>
+          <span class="archive-badge grow">◐ 接棒生长</span>
+        </div>
+        <h3>「有爱的」无障碍社团</h3>
+        <p class="archive-school">浙江大学</p>
+        <p class="archive-desc">建筑、传播、医学、软工多学科同学共创，开发出拍照即报障的智能排查系统——「无障碍不是助残，而是共创」，理念随代码一起开源传续。</p>
+        <div class="archive-tags"><span>#跨学科</span><span>#无障碍</span></div>
+        <p class="archive-stat">🔄 多专业共创中</p>
+        <a class="archive-link" href="http://www.zgzyz.org.cn/gb/articles/2025-07/02/content_JQd3mIqG.html" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-006</span>
+          <span class="archive-badge grow">◐ 接棒生长</span>
+        </div>
+        <h3>DREAM 追梦志愿服务队</h3>
+        <p class="archive-school">中国石油大学（华东）</p>
+        <p class="archive-desc">支教足迹辐射 6 省 17 县区、帮扶上千名乡村儿童；搭建 IP 资源中心，让优秀教案与带队经验在一届届队员间沉淀共享。</p>
+        <div class="archive-tags"><span>#支教</span><span>#经验沉淀</span></div>
+        <p class="archive-stat">🔄 辐射 6 省 17 县区</p>
+        <a class="archive-link" href="https://app.upc.edu.cn/wap/material?id=32979" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-007</span>
+          <span class="archive-badge grow">◐ 接棒生长</span>
+        </div>
+        <h3>「小蜜蜂」无障碍调研</h3>
+        <p class="archive-school">复旦大学</p>
+        <p class="archive-desc">三年累计考察 30 余个核心场所、90 余处无障碍设施，撰写五万余字调研报告推动问题落地解决，队伍如蜂群般逐年壮大。</p>
+        <div class="archive-tags"><span>#调研</span><span>#无障碍</span></div>
+        <p class="archive-stat">🔄 持续深耕 3 年</p>
+        <a class="archive-link" href="https://www.fudan.edu.cn/2026/0730/c24a150005/page.htm" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-014</span>
+          <span class="archive-badge grow">◐ 接棒生长</span>
+        </div>
+        <h3>校园无障碍「诊断书」</h3>
+        <p class="archive-school">复旦大学 · 上医校园</p>
+        <p class="archive-desc">学子自发为校园无障碍环境撰写 138 页「诊断书」，细致入微的测绘与建议成为后续多轮设施改造的重要参照，研究方法亦被传承沿用。</p>
+        <div class="archive-tags"><span>#调研</span><span>#改造依据</span></div>
+        <p class="archive-stat">🔄 138 页沉淀</p>
+        <a class="archive-link" href="https://www.fudan.edu.cn/2020/1203/c24a107317/page.htm" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-015</span>
+          <span class="archive-badge grow">◐ 接棒生长</span>
+        </div>
+        <h3>从追光者到点灯人</h3>
+        <p class="archive-school">湖南人文科技学院 · 张锦杰</p>
+        <p class="archive-desc">在校期间创新创业成绩斐然，毕业之际将 3D 打印机捐赠母校，并留下完整技术手册带动学弟学妹继续实践——「把接到的光，再传下去」。</p>
+        <div class="archive-tags"><span>#捐赠</span><span>#技术传承</span></div>
+        <p class="archive-stat">🔄 火种相传中</p>
+        <a class="archive-link" href="https://m.voc.com.cn/xhn/news/202605/32602255.html" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+      <article class="archive-card revive">
+        <div class="archive-top">
+          <span class="archive-no">FS-008</span>
+          <span class="archive-badge wake">✦ 第五季·唤醒</span>
+        </div>
+        <h3>会生长的 Q 版校园地图</h3>
+        <p class="archive-school">温州八高 → 杭州师范大学</p>
+        <p class="archive-desc">高二时参赛的手绘地图沉睡三年后，毕业的学姐被母校的唤醒邀约召回，以二次创作让地图从纸面生长到云端——一幅「会生长的地图」就此诞生。</p>
+        <div class="archive-tags"><span>#手绘</span><span>#跨届唤醒</span></div>
+        <p class="archive-stat">✨ 沉睡 3 年后被唤醒</p>
+        <a class="archive-link" href="http://news.66wz.com/system/2024/03/12/105626063.shtml" target="_blank" rel="noopener noreferrer">查看报道 ↗</a>
+      </article>
+
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-016</span>
+          <span class="archive-badge alive">● 完整传承</span>
+        </div>
+        <h3>「种太阳」乡村夏令营</h3>
+        <p class="archive-school">武汉大学 · 种太阳工作室</p>
+        <p class="archive-desc">2009 年由武大学生发起的乡村儿童素质教育公益项目，十七年间一届届志愿者接力打磨课程，把戏剧、美术、科学实验带进大山，陪伴乡村孩子度过一个个明亮的夏天。</p>
+        <div class="archive-tags"><span>#支教</span><span>#17年接力</span></div>
+        <p class="archive-stat">🔄 火种相传中</p>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-017</span>
+          <span class="archive-badge alive">● 完整传承</span>
+        </div>
+        <h3>大山里的魔法教室</h3>
+        <p class="archive-school">武汉大学 · 研究生支教团</p>
+        <p class="archive-desc">从一间普通教室出发，一届届支教团成员接力改建多媒体教室、引入远程课程——每届交接时留下的不是钥匙，而是整套运行手册与未竟的愿望清单。</p>
+        <div class="archive-tags"><span>#教育公益</span><span>#教室改造</span></div>
+        <p class="archive-stat">🔄 火种相传中</p>
+        <a class="archive-link" href="https://www.thepaper.cn/newsDetail_forward_27266975" target="_blank" rel="noopener noreferrer">查看详情 ↗</a>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-018</span>
+          <span class="archive-badge alive">● 完整传承</span>
+        </div>
+        <h3>书信陪伴计划</h3>
+        <p class="archive-school">武汉大学 · 山水知行公益社团</p>
+        <p class="archive-desc">以「一对一笔友」的形式连接大学生与山区孩子，每学年数万封信件跨越山海。志愿者毕业时最重要的交接物，是厚厚一摞写满孩子心事的信件与回信档案。</p>
+        <div class="archive-tags"><span>#书信</span><span>#陪伴</span></div>
+        <p class="archive-stat">🔄 火种相传中</p>
+        <a class="archive-link" href="https://www.thepaper.cn/newsDetail_forward_27266975" target="_blank" rel="noopener noreferrer">查看详情 ↗</a>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-019</span>
+          <span class="archive-badge alive">● 完整传承</span>
+        </div>
+        <h3>爱心社「爱心万里行」</h3>
+        <p class="archive-school">北京大学 · 爱心社</p>
+        <p class="archive-desc">1990 年成立的中国高校公益社团标杆，三十余年社员换了一茬又一茬，「爱心万里行」暑期实践却从未中断——一代代社员带着上一届的调研笔记再出发。</p>
+        <div class="archive-tags"><span>#公益社团</span><span>#三十余年</span></div>
+        <p class="archive-stat">🔄 火种相传中</p>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-020</span>
+          <span class="archive-badge grow">◐ 接棒生长</span>
+        </div>
+        <h3>「林歌」校园分类计划</h3>
+        <p class="archive-school">北京大学 · 林歌计划团队</p>
+        <p class="archive-desc">学生自发发起的校园垃圾分类与回收项目，创始成员毕业后，低年级同学接手了回收点与账本，把「绿色校园」的接力棒从一双手传到另一双手。</p>
+        <div class="archive-tags"><span>#环保</span><span>#校园自治</span></div>
+        <p class="archive-stat">🌱 新一届接棒中</p>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-021</span>
+          <span class="archive-badge grow">◐ 接棒生长</span>
+        </div>
+        <h3>手工明信片义卖</h3>
+        <p class="archive-school">清华大学 · 爱心公益团队</p>
+        <p class="archive-desc">每年毕业季，社团成员手工印制校园主题明信片义卖，所得捐给公益项目。创始人毕业时留下了整套制版工艺，让这份「指尖的温柔」在每个夏天准时返场。</p>
+        <div class="archive-tags"><span>#义卖</span><span>#毕业季</span></div>
+        <p class="archive-stat">🌱 新一届接棒中</p>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-022</span>
+          <span class="archive-badge alive">● 完整传承</span>
+        </div>
+        <h3>「远征」返乡实践</h3>
+        <p class="archive-school">复旦大学 · 远征社</p>
+        <p class="archive-desc">以「返乡调研 + 支教」为主的学生实践社团，一届届成员把家乡的地图、问卷与访谈录音整理成档案，让每一次远征都站在前人的肩膀上出发。</p>
+        <div class="archive-tags"><span>#社会实践</span><span>#乡土调研</span></div>
+        <p class="archive-stat">🔄 火种相传中</p>
+      </article>
+
+      <article class="archive-card is-collapsed">
+        <div class="archive-top">
+          <span class="archive-no">FS-023</span>
+          <span class="archive-badge alive">● 完整传承</span>
+        </div>
+        <h3>「止于至善」支教接力</h3>
+        <p class="archive-school">东南大学 · 研究生支教团</p>
+        <p class="archive-desc">二十余届支教团成员接力奔赴西部，交接的不只是课程表，还有每个孩子的学习档案——「用一年不长的时间，做一件终生难忘的事」。</p>
+        <div class="archive-tags"><span>#支教团</span><span>#西部计划</span></div>
+        <p class="archive-stat">🔄 火种相传中</p>
+      </article>
+
+    </div>
+
+    <div class="archive-toggle-wrap">
+      <button class="archive-toggle" id="archive-toggle" aria-expanded="false">
+        <span class="at-text">展开其余 15 个传承故事</span>
+        <span class="at-arrow" aria-hidden="true">▾</span>
+      </button>
+      <p class="archive-fold-hint" id="archive-hint">已展示 8 / 23 · 另有 15 粒种子在土壤下沉睡</p>
+    </div>
+
+    <!-- v6.1 南大传承实录 · 专属种子卡（数据见数据库 fs_projects 20/21/22，整理自公开报道） -->
+    <div class="nju-strip">
+      <div class="nju-strip-head">
+        <span class="nju-strip-mark">🌱</span>
+        <div>
+          <h3 class="nju-strip-title">南京大学 · 传承实录</h3>
+          <p class="nju-strip-sub">三粒真实生长在南园的种子 · 数据已入库，可在「交接包实探」中查阅完整交接包</p>
+        </div>
+      </div>
+      <div class="nju-cards">
+
+        <article class="nju-card">
+          <div class="nju-card-head">
+            <span class="nju-seed-icon">🌾</span>
+            <div>
+              <h4>研究生支教团</h4>
+              <p class="nju-card-meta">1999 年组建 · 全国首批</p>
+            </div>
+            <span class="nju-card-badge">档案级 · 真实报道</span>
+          </div>
+          <div class="nju-facts">
+            <div class="nju-fact"><b>26</b><i>届接力</i></div>
+            <div class="nju-fact"><b>436</b><i>位志愿者</i></div>
+            <div class="nju-fact"><b>7万+</b><i>教授学生</i></div>
+          </div>
+          <div class="nju-seed-box">
+            <p class="nju-seed-box-title">✦ 专属种子卡</p>
+            <div class="nju-seed-row"><span class="nju-seed-k">项目方向</span><p class="nju-seed-v">以「一年支教」接力西部基础教育，用一届届青春把教育公平写进大山。</p></div>
+            <div class="nju-seed-row"><span class="nju-seed-k">已解决</span><p class="nju-seed-v">以「届」为单位的交接机制——离岗前整理课件、学生档案与当地需求清单，服务 6 省 10 县 32 所中小学。</p></div>
+            <div class="nju-seed-row"><span class="nju-seed-k">可复用</span><p class="nju-seed-v">老带新跟岗培养范式 · 与当地教育部门的长期合作机制。</p></div>
+          </div>
+          <div class="nju-links">
+            <a href="https://zqb.cyol.com/html/2022-08/18/nw.D110000zgqnb_20220818_1-06.htm" target="_blank" rel="noopener noreferrer">中国青年报报道 ↗</a>
+          </div>
+        </article>
+
+        <article class="nju-card">
+          <div class="nju-card-head">
+            <span class="nju-seed-icon">🌸</span>
+            <div>
+              <h4>小百合 BBS</h4>
+              <p class="nju-card-meta">1997 年建站 · 校园文化十大品牌</p>
+            </div>
+            <span class="nju-card-badge">档案级 · 真实报道</span>
+          </div>
+          <div class="nju-facts">
+            <div class="nju-fact"><b>29</b><i>年运营</i></div>
+            <div class="nju-fact"><b>38万+</b><i>注册账户</i></div>
+            <div class="nju-fact"><b>2013</b><i>十大品牌</i></div>
+          </div>
+          <div class="nju-seed-box">
+            <p class="nju-seed-box-title">✦ 专属种子卡</p>
+            <div class="nju-seed-row"><span class="nju-seed-k">项目方向</span><p class="nju-seed-v">由在校生志愿者接力运营的校园网络社区，一代代站务组守护「一网情深」。</p></div>
+            <div class="nju-seed-row"><span class="nju-seed-k">已解决</span><p class="nju-seed-v">版主负责制的板块自治文化，让社区在志愿者更替中稳定运转近三十年。</p></div>
+            <div class="nju-seed-row"><span class="nju-seed-k">可复用</span><p class="nju-seed-v">站务组代际交接经验 · 高校社区合规运营路径。</p></div>
+          </div>
+          <div class="nju-links">
+            <a href="https://xiaobao.nju.edu.cn" target="_blank" rel="noopener noreferrer">南京大学报《一网情深百合开》↗</a>
+          </div>
+        </article>
+
+        <article class="nju-card">
+          <div class="nju-card-head">
+            <span class="nju-seed-icon">🎭</span>
+            <div>
+              <h4>话剧《蒋公的面子》</h4>
+              <p class="nju-card-meta">2012 年校庆首演 · 江南剧院十年驻场</p>
+            </div>
+            <span class="nju-card-badge">档案级 · 真实报道</span>
+          </div>
+          <div class="nju-facts">
+            <div class="nju-fact"><b>62+</b><i>公演场次</i></div>
+            <div class="nju-fact"><b>10</b><i>年驻场</i></div>
+            <div class="nju-fact"><b>3</b><i>代版本并行</i></div>
+          </div>
+          <div class="nju-seed-box">
+            <p class="nju-seed-box-title">✦ 专属种子卡</p>
+            <div class="nju-seed-row"><span class="nju-seed-k">项目方向</span><p class="nju-seed-v">温方伊编剧、吕效平导演，从校庆献礼长成全国巡演的文化事件。</p></div>
+            <div class="nju-seed-row"><span class="nju-seed-k">已解决</span><p class="nju-seed-v">「以剧带人」传承——一届届艺术硕士在复排中完成舞台交接，并以票房养校内戏剧。</p></div>
+            <div class="nju-seed-row"><span class="nju-seed-k">可复用</span><p class="nju-seed-v">多版本并行机制，让每代演员留下自己的诠释。</p></div>
+          </div>
+          <div class="nju-links">
+            <a href="https://www.nju.edu.cn/info/3321/259861.htm" target="_blank" rel="noopener noreferrer">南京大学官网报道 ↗</a>
+            <a href="https://www.nju.edu.cn/info/3191/160561.htm" target="_blank" rel="noopener noreferrer">从校园话剧到文化事件 ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <p class="archive-note">※ 以上档案整理自各高校官网、《中国青年报》、长城网等公开报道，点击卡片链接可查阅原文，谨作真实传承案例展示之用。</p>
+  </section>
+
+  <!-- 升华结尾 -->
+  <section class="section finale-section" id="finale">
+    <div class="finale-card">
+      <div class="finale-stars" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <span class="finale-badge">终 章 · 写给每一粒种子</span>
+      <h2 class="finale-title">每个未完成的梦想<br/>都在等待它的第五季</h2>
+      <div class="finale-divider"><i></i><b>❋</b><i></i></div>
+      <p class="finale-text">一粒种子的凋零，从来不是故事的终点——<br/>它落进土里，便成为下一季的养分。</p>
+      <p class="finale-text">每一年，校园里都有人带着遗憾离开，也有人怀着热忱抵达。<br/>「第五季」想做的，只是在这来去之间修一座小小的桥：</p>
+      <p class="finale-text emph">让善意被记得，让经验被传下，<br/>让每一个「如果当时」，都变成「幸好现在」。</p>
+      <div class="rules-cta finale-cta">
+        <button class="btn btn-primary btn-start" data-action="enter-chat">进入第五季 · 开始对话</button>
+      </div>
+      <p class="finale-quote">—— 春生夏长，秋收冬藏；四季之外，另有新章 ——</p>
+    </div>
+  </section>
+
+  <div class="season-ribbon" aria-hidden="true"></div>
+  <footer class="footer">
+    <p class="footer-slogan">2026 EL 大赛 AI 智能体创新专项组作品 · <b>第五季</b>，让未完成的美好重新发生</p>
+    <p class="footer-sub">种子已就位 · 静候每一位续种人</p>
+  </footer>
+</div>
+
+<!-- ============ 视图二：对话页（阅读规则后进入） ============ -->
+<div id="view-chat" class="view view-chat">
+  <span class="chat-petal cp-1">🌸</span><span class="chat-petal cp-2">🌸</span><span class="chat-petal cp-3">🌸</span><span class="chat-petal cp-4">🌸</span><span class="chat-petal cp-5">🌸</span><span class="chat-petal cp-6">🌸</span>
+  <!-- 两侧四季过渡装饰带（大屏显示） -->
+  <div class="side-season side-left" aria-hidden="true">
+    <i class="ss-line"></i>
+    <i class="ss-ico" style="top:14%">🌱</i>
+    <i class="ss-ico" style="top:34%">☀️</i>
+    <i class="ss-ico" style="top:54%">🍂</i>
+    <i class="ss-ico" style="top:74%">❄️</i>
+    <i class="ss-ico" style="top:92%">✨</i>
+  </div>
+  <div class="side-season side-right" aria-hidden="true">
+    <i class="ss-line"></i>
+    <i class="ss-ico" style="top:14%">🌱</i>
+    <i class="ss-ico" style="top:34%">☀️</i>
+    <i class="ss-ico" style="top:54%">🍂</i>
+    <i class="ss-ico" style="top:74%">❄️</i>
+    <i class="ss-ico" style="top:92%">✨</i>
+  </div>
+  <div class="chat-full">
+    <div class="chat-shell">
+      <!-- 星空聊天背景层 -->
+      <div class="chat-stars" aria-hidden="true">
+        <i class="cs-star st-1"></i><i class="cs-star st-2"></i><i class="cs-star st-3"></i><i class="cs-star st-4"></i>
+        <i class="cs-star st-5"></i><i class="cs-star st-6"></i><i class="cs-star st-7"></i><i class="cs-star st-8"></i>
+        <i class="cs-star st-9"></i><i class="cs-star st-10"></i><i class="cs-star st-11"></i><i class="cs-star st-12"></i>
+        <i class="cs-meteor"></i>
+      </div>
+      <div class="chat-header">
+        <div class="chat-title">
+          <span class="chat-avatar"><img src="/static/avatar_zhiyan.png" alt="知颜" onerror="this.style.display='none'"></span>
+          <div>
+            <b>知颜 · 第五季传承知己</b>
+            <small id="chat-status">● 在线</small>
+          </div>
+        </div>
+        <div class="chat-header-actions">
+          <button class="btn-session" id="btn-reset">新会话</button>
+          <button class="btn-session" data-action="back-intro">← 返回介绍</button>
+        </div>
+      </div>
+      <div class="chat-messages" id="chat-messages"></div>
+      <div class="chat-tools" aria-label="快捷体验">
+      <div class="chat-chips chat-chips-merged">
+        <span class="chips-label">核心旅程</span>
+        <button class="chip chip-season chip-spring" data-msg="你好，我是大一新同学，专业是计算机，会写代码也喜欢摄影，帮我建立一份专属档案；我还有个想法：把教学楼里被遗忘的角落改造成共享自习空间，一起评估生成项目种子卡">🌱 春·萌芽 · 建档</button>
+        <button class="chip chip-season chip-summer" data-msg="我的项目一个人推进有点吃力，帮我看看有哪些伙伴的能力和我互补、适合组队一起推进；顺便记个待办：本周内完成第一次组队碰头">☀️ 夏·生长 · 组队</button>
+        <button class="chip chip-season chip-autumn" data-msg="我马上要毕业了，想把手上这个项目做个漂亮的收尾，整理成果和经验沉淀成交接包">🍂 秋·沉淀 · 交接</button>
+        <button class="chip chip-season chip-winter" data-msg="最近课业太重，项目要先暂停一段时间，帮我把它归档进休眠库，留住所有经验">❄️ 冬·蛰伏 · 归档</button>
+        <button class="chip chip-season chip-fifth" data-msg="我想接棒一个休眠中的项目，看看记忆库里有哪些值得唤醒的种子，我的能力可以匹配哪些">✨ 第五季·唤醒</button>
+      </div>
+      <div class="chat-chips chat-chips-legacy">
+        <span class="chips-label chips-legacy-label">更多能力</span>
+        <button class="chip chip-legacy" data-msg="带我去传承故事墙看看：目前真实发生过哪些唤醒接棒的传承故事？">📖 传承故事墙</button>
+        <button class="chip chip-legacy" data-msg="查一下我的传承者成就、贡献值和全校排名，顺便告诉我下一枚勋章怎么解锁">🏅 我的成就</button>
+        <button class="chip chip-legacy" data-msg="给我看看全校技能图谱：校园里现在最缺什么能力？哪些能力富余适合发起项目？">📊 技能图谱</button>
+        <button class="chip chip-legacy" data-msg="帮我做一次项目健康巡检：现在有哪些休眠种子最值得唤醒、哪些项目停滞需要关心？">🩺 项目巡检</button>
+        <button class="chip chip-legacy" data-msg="我快毕业了，想为我的项目生成一份毕业季托付书，把热爱托付给下一双手">📜 生成托付书</button>
+        <button class="chip chip-legacy" data-msg="我的项目可以和校园里哪些项目联手协作？帮我找找领域相近、能力互补的组合">🤝 协作发现</button>
+      </div>
+      </div>
+      <div class="chat-input">
+        <button class="btn-upload" id="btn-upload" type="button" title="上传文件，让知颜整理建档（txt/md/pdf/docx）">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 9l5-5 5 5"/><path d="M12 4v12"/></svg>
+        </button>
+        <input type="file" id="chat-file" hidden accept=".txt,.md,.csv,.json,.pdf,.docx,.py,.js,.html,.css">
+        <textarea id="chat-input" rows="1" placeholder="像朋友一样自然地说话，例如：我是大二的小林，会设计，想找个公益项目参与…"></textarea>
+        <button class="btn-send" id="btn-send">发送</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 季节详情浮层 ============ -->
+<div class="season-modal" id="season-modal" hidden>
+  <div class="season-modal-mask" data-close-modal></div>
+  <div class="season-modal-card" id="season-modal-card">
+    <button class="season-modal-close" data-close-modal aria-label="关闭">×</button>
+    <div class="season-modal-head">
+      <span class="season-modal-tag" id="modal-tag">春</span>
+      <div class="season-modal-title">
+        <h3 id="modal-title">春 · 萌芽</h3>
+        <p class="season-modal-poem" id="modal-poem">「」</p>
+      </div>
+    </div>
+    <p class="season-modal-desc" id="modal-desc"></p>
+    <ul class="season-modal-feats" id="modal-feats"></ul>
+    <div class="season-modal-try">
+      <p class="try-label">◈ 试着这样对知颜说：</p>
+      <p class="try-quote" id="modal-quote"></p>
+      <button class="btn btn-primary btn-try" data-action="try-season">去对话中体验 →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 通用详情弹窗（功能详情 / 技能项目 / 种子卡） ============ -->
+<div class="detail-modal" id="detail-modal" hidden>
+  <div class="detail-mask" data-close-detail></div>
+  <div class="detail-card">
+    <button class="detail-close" data-close-detail aria-label="关闭">×</button>
+    <div class="detail-body" id="detail-body"></div>
+  </div>
+</div>
+
+<!-- ============ v10.0 海报灯箱（点击放大） ============ -->
+<div class="poster-lightbox" id="poster-lightbox" hidden>
+  <div class="poster-lightbox-mask" data-close-lightbox></div>
+  <img id="poster-lightbox-img" alt="招募海报放大视图"/>
+  <button class="poster-lightbox-close" data-close-lightbox aria-label="关闭">×</button>
+</div>
+
+<!-- ============ v10.0 成员留言弹窗 ============ -->
+<div class="nick-modal" id="member-msg-modal" hidden>
+  <div class="nick-mask" data-close-member-msg></div>
+  <div class="nick-card">
+    <h4 id="member-msg-title">给成员留言</h4>
+    <p>留言将送入 TA 的知颜信箱，对方回复也会出现在你的信箱里。</p>
+    <textarea id="member-msg-input" maxlength="500" placeholder="想说的话（≤500字）" rows="4"></textarea>
+    <div class="nick-actions">
+      <button class="nick-cancel" data-close-member-msg type="button">取消</button>
+      <button class="nick-ok" id="member-msg-ok" type="button">发送留言</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 昵称确认弹窗（投票/建档前置） ============ -->
+<div class="nick-modal" id="nick-modal" hidden>
+  <div class="nick-mask" data-close-nick></div>
+  <div class="nick-card">
+    <h4 id="nick-title">投票前，请先输入你的昵称</h4>
+    <p id="nick-desc">票数按昵称分开统计、一人一票；尚未建档的同学，知颜会在对话中帮你完成建档。</p>
+    <input type="text" id="nick-input" maxlength="24" placeholder="你的昵称（与知颜对话中使用的名字）" autocomplete="off"/>
+    <div class="nick-actions">
+      <button class="nick-cancel" data-close-nick type="button">取消</button>
+      <button class="nick-ok" id="nick-ok" type="button">确认</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ v7.0 登录/注册弹窗 ============ -->
+<div class="auth-modal" id="auth-modal" hidden>
+  <div class="auth-mask" data-close-auth></div>
+  <div class="auth-card">
+    <button class="auth-close" data-close-auth aria-label="关闭">×</button>
+    <div class="auth-head">
+      <div class="auth-ornament"><i></i><b>❋</b><i></i></div>
+      <h3 id="auth-title">回到第五季</h3>
+      <p id="auth-sub">凭昵称与专属传承码进入——你的档案、项目与对话记忆都在这里</p>
+    </div>
+
+    <!-- Tab -->
+    <div class="auth-tabs" id="auth-tabs">
+      <button class="auth-tab active" type="button" data-auth-tab="login">登录</button>
+      <button class="auth-tab" type="button" data-auth-tab="register">注册</button>
+    </div>
+
+    <!-- 登录表单 -->
+    <div class="auth-form" id="auth-login-form">
+      <label class="auth-field">
+        <span>昵称</span>
+        <input type="text" id="login-nick" maxlength="24" placeholder="注册时使用的昵称" autocomplete="username"/>
+      </label>
+      <label class="auth-field">
+        <span>传承码（六位数字）</span>
+        <input type="password" id="login-code" maxlength="6" inputmode="numeric" placeholder="••••••" autocomplete="current-password"/>
+      </label>
+      <p class="auth-error" id="login-error" hidden></p>
+      <button class="auth-submit" id="login-submit" type="button">进入第五季</button>
+      <p class="auth-tip">传承码在注册成功时仅展示一次，请妥善保管；忘记传承码请联系管理员重置。</p>
+    </div>
+
+    <!-- 注册表单 -->
+    <div class="auth-form" id="auth-register-form" hidden>
+      <label class="auth-field">
+        <span>昵称</span>
+        <input type="text" id="reg-nick" maxlength="24" placeholder="1-24 个字符，站内唯一" autocomplete="off"/>
+      </label>
+      <label class="auth-field">
+        <span>年级（滚动选择）</span>
+        <div class="grade-picker" id="grade-picker">
+          <button class="grade-scroll up" type="button" data-grade="up" aria-label="上一年">▲</button>
+          <div class="grade-view" id="grade-view">2024级</div>
+          <button class="grade-scroll down" type="button" data-grade="down" aria-label="下一年">▼</button>
+        </div>
+      </label>
+      <label class="auth-field">
+        <span>专业</span>
+        <input type="text" id="reg-major" maxlength="40" placeholder="如：物理学院 / 计算机科学与技术" autocomplete="off"/>
+      </label>
+      <p class="auth-error" id="reg-error" hidden></p>
+      <button class="auth-submit" id="reg-submit" type="button">注册并领取传承码</button>
+      <p class="auth-tip">注册即完成基础建档，之后可在对话中随时补充技能与兴趣标签。</p>
+    </div>
+
+    <!-- 传承码一次性展示 -->
+    <div class="auth-code-reveal" id="auth-code-reveal" hidden>
+      <p class="acr-label">你的专属传承码</p>
+      <div class="acr-code" id="acr-code">000000</div>
+      <p class="acr-warn">⚠️ 仅此一次完整展示：请立即抄写或截图保存。它是你在第五季的唯一凭证，不会再次出现。</p>
+      <button class="auth-submit" id="acr-done" type="button">我已抄写保存，进入第五季</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ v7.0 信箱弹窗 ============ -->
+<div class="inbox-modal" id="inbox-modal" hidden>
+  <div class="auth-mask" data-close-inbox></div>
+  <div class="inbox-card">
+    <button class="auth-close" data-close-inbox aria-label="关闭">×</button>
+    <div class="auth-head">
+      <div class="auth-ornament"><i></i><b>✉</b><i></i></div>
+      <h3>我的信箱</h3>
+      <p>其他同学通过知颜投递的留言都会出现在这里；你也可以在对话中让知颜帮 TA 递话</p>
+    </div>
+    <div class="inbox-list" id="inbox-list">
+      <p class="inbox-empty">信箱空空的——去和知颜聊聊，让 TA 帮你联系感兴趣的同学吧</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ v8.0 团队详情 / 协作空间弹窗 ============ -->
+<div class="inbox-modal" id="team-modal" hidden>
+  <div class="auth-mask" data-close-team></div>
+  <div class="team-card">
+    <button class="auth-close" data-close-team aria-label="关闭">×</button>
+    <div class="team-head" id="team-head"></div>
+    <div class="team-body">
+      <div class="team-project-box" id="team-project-box" hidden></div>
+      <div class="team-members" id="team-members"></div>
+      <div class="team-apps" id="team-apps"></div>
+      <div class="team-poster-box" id="team-poster-box" hidden></div>
+      <div class="team-chat" id="team-chat-wrap">
+        <div class="team-chat-title">💬 团队协作空间 <small>（知颜与全队共享这段记忆）</small></div>
+        <div class="team-chat-messages" id="team-chat-messages"></div>
+        <div class="team-chat-input">
+          <input type="text" id="team-chat-input" placeholder="和团队（与知颜）说点什么…">
+          <button type="button" id="team-chat-send">发送</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ v8.0 个人画像弹窗 ============ -->
+<div class="inbox-modal" id="profile-modal" hidden>
+  <div class="auth-mask" data-close-profile></div>
+  <div class="profile-card">
+    <button class="auth-close" data-close-profile aria-label="关闭">×</button>
+    <div class="auth-head">
+      <div class="auth-ornament"><i></i><b>🌿</b><i></i></div>
+      <h3>我的画像</h3>
+      <p>知颜在第一次对话时为你生成的个人档案画像——可自由编辑，可决定是否公开</p>
+    </div>
+    <div class="profile-fields" id="profile-fields">
+      <label class="auth-field"><span>性格特质</span><textarea id="pf-traits" rows="2" maxlength="120" placeholder="如：温和细致，喜欢把复杂问题拆成小步骤"></textarea></label>
+      <label class="auth-field"><span>技能专长</span><textarea id="pf-strengths" rows="2" maxlength="120" placeholder="如：Python 数据处理、活动统筹"></textarea></label>
+      <label class="auth-field"><span>经历故事</span><textarea id="pf-story" rows="2" maxlength="160" placeholder="一句话概括你的校园经历亮点"></textarea></label>
+      <label class="auth-field"><span>当前方向</span><textarea id="pf-goals" rows="2" maxlength="160" placeholder="如：想把植物标本社做起来"></textarea></label>
+    </div>
+    <label class="profile-public-toggle">
+      <input type="checkbox" id="pf-public">
+      <span>公开我的画像（公开后，他人可在项目发起人、组队申请处看到你的画像）</span>
+    </label>
+    <p class="auth-error" id="pf-error"></p>
+    <button class="auth-submit" id="pf-save" type="button">保存画像</button>
+  </div>
+</div>
+
+<!-- ============ v8.0 新手教程引导层 ============ -->
+<div class="tour-overlay" id="tour-overlay" hidden>
+  <div class="tour-spotlight" id="tour-spotlight"></div>
+  <div class="tour-bubble" id="tour-bubble">
+    <div class="tour-step-no" id="tour-step-no">1 / 8</div>
+    <h4 id="tour-title"></h4>
+    <p id="tour-text"></p>
+    <div class="tour-actions">
+      <button class="tour-skip" id="tour-skip">跳过教程</button>
+      <button class="tour-prev" id="tour-prev">上一步</button>
+      <button class="tour-next" id="tour-next">下一步</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ v9.0 档案故事详情弹窗 ============ -->
+<div class="inbox-modal" id="story-modal" hidden>
+  <div class="auth-mask" data-close-story></div>
+  <div class="story-detail-card">
+    <button class="auth-close" data-close-story aria-label="关闭">×</button>
+    <div class="auth-head">
+      <div class="auth-ornament"><i></i><b>📖</b><i></i></div>
+      <h3 id="story-d-title">传承故事</h3>
+      <p id="story-d-meta">—</p>
+    </div>
+    <div class="story-detail-tags" id="story-d-tags"></div>
+    <div class="story-detail-body" id="story-d-body"></div>
+    <div class="story-detail-foot" id="story-d-foot"></div>
+  </div>
+</div>
+
+<!-- ============ v9.0 候选池类型展开弹窗 ============ -->
+<div class="inbox-modal" id="group-modal" hidden>
+  <div class="auth-mask" data-close-group></div>
+  <div class="group-card">
+    <button class="auth-close" data-close-group aria-label="关闭">×</button>
+    <div class="auth-head">
+      <div class="auth-ornament"><i></i><b>🌱</b><i></i></div>
+      <h3 id="group-d-title">类型项目</h3>
+      <p id="group-d-sub">—</p>
+    </div>
+    <div class="votes-grid group-modal-grid" id="group-modal-grid"></div>
+  </div>
+</div>
+
+<!-- ============ v9.0 发布招募弹窗 ============ -->
+<div class="inbox-modal" id="recruit-modal" hidden>
+  <div class="auth-mask" data-close-recruit></div>
+  <div class="recruit-card">
+    <button class="auth-close" data-close-recruit aria-label="关闭">×</button>
+    <div class="auth-head">
+      <div class="auth-ornament"><i></i><b>🤝</b><i></i></div>
+      <h3>发布招募</h3>
+      <p>上传你的招募海报，写清队名与方向——所有用户都将在招募区看到你的队伍</p>
+    </div>
+    <label class="auth-field"><span>队名 *</span><input type="text" id="recruit-name" maxlength="40" placeholder="如：草木图鉴小分队"></label>
+    <label class="auth-field"><span>招募说明</span><textarea id="recruit-desc" rows="3" maxlength="300" placeholder="想找什么样的伙伴、准备做什么、预计投入…"></textarea></label>
+    <div class="recruit-poster-row">
+      <span class="recruit-poster-label">招募海报（图片，≤2.5MB）</span>
+      <input type="file" id="recruit-poster-file" accept="image/png,image/jpeg,image/webp,image/gif" hidden>
+      <button type="button" class="recruit-poster-btn" id="recruit-poster-btn">🖼️ 选择海报</button>
+    </div>
+    <div class="recruit-poster-preview" id="recruit-poster-preview" hidden>
+      <img id="recruit-poster-img" alt="招募海报预览">
+      <button type="button" class="recruit-poster-del" id="recruit-poster-del">✕ 移除</button>
+    </div>
+    <p class="auth-error" id="recruit-error"></p>
+    <button class="auth-submit" id="recruit-submit" type="button">发布到招募区</button>
+  </div>
+</div>
+
+<!-- ============ v9.0 传承者风云榜弹窗 ============ -->
+<div class="inbox-modal" id="leaderboard-modal" hidden>
+  <div class="auth-mask" data-close-lb></div>
+  <div class="lb-card">
+    <button class="auth-close" data-close-lb aria-label="关闭">×</button>
+    <div class="auth-head">
+      <div class="auth-ornament"><i></i><b>🏅</b><i></i></div>
+      <h3>传承者风云榜</h3>
+      <p>每次接棒、建档、组队、留言都会累积传承积分——点击用户可查看其公开画像</p>
+    </div>
+    <div class="lb-list-full" id="lb-list-full"></div>
+    <div class="lb-rules" id="lb-rules"></div>
+  </div>
+</div>
+
+<!-- ============ v9.0 完整功能手册弹窗 ============ -->
+<div class="inbox-modal" id="handbook-modal" hidden>
+  <div class="auth-mask" data-close-handbook></div>
+  <div class="handbook-card">
+    <button class="auth-close" data-close-handbook aria-label="关闭">×</button>
+    <div class="auth-head">
+      <div class="auth-ornament"><i></i><b>📋</b><i></i></div>
+      <h3>「第五季·续种」完整功能手册</h3>
+      <p>从注册到传承的每一项能力，都在这里——详细分点，随时查阅</p>
+    </div>
+    <div class="handbook-body" id="handbook-body"></div>
+  </div>
+</div>
+
+<!-- ============ 功能全景弹窗 ============ -->
+<div class="feature-modal" id="feature-modal" hidden>
+  <div class="feature-modal-mask" data-close-feature></div>
+  <div class="feature-modal-card">
+    <button class="feature-modal-close" data-close-feature aria-label="关闭">×</button>
+    <div class="feature-modal-head">
+      <div class="feature-modal-ornament"><i></i><b>❋</b><i></i></div>
+      <h3>功能全景</h3>
+      <p>「第五季·续种」能为你做的每一件事——四季是机制，传承是使命</p>
+    </div>
+    <div class="feature-modal-body">
+      <div class="fm-group">
+        <h4 class="fm-group-title"><span>🌀</span> 四季之旅 · 核心生命周期</h4>
+        <p class="fm-group-desc">一个项目从灵感到重生的完整旅程。知颜用四季为你导航，每一季都有专属的 AI 协作方式。</p>
+        <div class="fm-grid">
+          <div class="fm-item">
+            <b>🌱 春 · 萌芽 · 建档与种子卡</b>
+            <p>与知颜对话即自动建档：年级、技能标签、兴趣画像、可投入时间，共同构成你的数字画像——这是后续一切匹配的基石。任何零散想法都能在几分钟内被提炼成结构化「种子卡」（标题 / 简介 / 领域标签 / 所需能力），也支持从活动复盘、文档、海报中直接提取立项。</p>
+            <i>试试说：「我叫小雨，2024级计算机系，会前端和剪辑」</i>
+          </div>
+          <div class="fm-item">
+            <b>☀️ 夏 · 生长 · 组队与执行</b>
+            <p>AI 基于能力互补在全库为你物色队友，给出匹配度与理由；成员加入采用「申请—审批」制，发起人一键通过；项目进展随手记录成动态时间线，待办事项自然语言增改，重要节点智能提醒，让执行不掉链子。</p>
+            <i>试试说：「帮我看看谁适合加入美食地图」「记一条进展：本周完成了三条路线试吃」</i>
+          </div>
+          <div class="fm-item">
+            <b>🍂 秋 · 沉淀 · 交接包</b>
+            <p>AI 通读项目全部动态，自动提炼五件套：已有成果、执行经验、踩过的坑、遗留问题、可复用资源（联系人 / 账号 / 文档），并给出下一步行动建议。接棒者不必从零开始，前人的每一步都算数。</p>
+            <i>试试说：「给美食地图沉淀一份交接包」</i>
+          </div>
+          <div class="fm-item">
+            <b>❄️ 冬 · 蛰伏 · 休眠归档</b>
+            <p>毕业、换届、时间不足不再是句号。项目连同全部经验一起封存进校园公共记忆库，成为等待被唤醒的「休眠种子」——主页投票板上，同学们仍能为它投「我也想用」。</p>
+            <i>试试说：「我要毕业了，把项目转入休眠」</i>
+          </div>
+          <div class="fm-item fm-item-wide">
+            <b>✨ 第五季 · 重生 · 唤醒接棒</b>
+            <p>系统的灵魂所在。知颜按「这颗种子的故事 → 为什么偏偏是你 → 接手后的第一步」三层叙事，把休眠项目与你的能力、兴趣精准匹配；确认接棒后负责人正式交接，传承故事自动上墙，成就同步点亮——每一场唤醒都被认真庆祝。</p>
+            <i>试试说：「有没有适合我接棒的项目？」</i>
+          </div>
+        </div>
+      </div>
+      <div class="fm-group">
+        <h4 class="fm-group-title"><span>🗃️</span> 传承宝库 · 让传承被看见</h4>
+        <p class="fm-group-desc">八大能力全部基于真实数据驱动，让「传承」从口号变成看得见的校园风景。</p>
+        <div class="fm-grid">
+          <div class="fm-item">
+            <b>📖 传承故事墙</b>
+            <p>每一次唤醒接棒自动生成故事卡：谁发起、沉睡了多少天、谁接棒、前人留下了什么高光成果。主页故事墙滚动展示，所有人可见可点赞——正在发生的传承，比任何宣传都动人。</p>
+            <i>试试说：「给我讲讲传承故事墙上的故事」</i>
+          </div>
+          <div class="fm-item">
+            <b>📜 毕业季托付书</b>
+            <p>一句寄语 + 项目真实档案（成果 / 期望接棒者画像 / 领域标签），AI 生成一张精美托付书图片并上传云端，可保存、可分享——把热爱正式托付给下一双手的仪式感。</p>
+            <i>试试说：「给我的项目生成一份托付书，寄语是……」</i>
+          </div>
+          <div class="fm-item">
+            <b>🖼️ 种子卡分享海报</b>
+            <p>任意项目（休眠或生长中）一键生成带领域标签与成果统计的分享海报，扫码即达对话页——社团招新、朋友圈拉新、招募接棒者的传播利器。</p>
+            <i>试试说：「给观星指南做一张分享海报」</i>
+          </div>
+          <div class="fm-item">
+            <b>🩺 项目健康巡检</b>
+            <p>AI 主动守护你的项目：休眠超期、生长停滞（≥21 天无动态）、亟待沉淀交接包的项目，逐个体检并给出可执行建议——不止被动应答，更是主动关怀。</p>
+            <i>试试说：「帮我巡检一下所有项目的健康状况」</i>
+          </div>
+          <div class="fm-item">
+            <b>📊 全校技能图谱</b>
+            <p>基于全库档案实时聚合的能力供需对比图：需求 > 供给的稀缺能力（值得招募或培养）、供给 > 需求的富余能力（适合发起项目）一目了然，用真实数字回答「校园需要什么」。</p>
+            <i>试试说：「看看哪些能力最稀缺」</i>
+          </div>
+          <div class="fm-item">
+            <b>🗳️ 需求投票唤醒</b>
+            <p>主页投票板为休眠种子投「我也想用」票（需先建档、一人一票防刷），票数越高的种子越优先被推荐唤醒——让接棒决策由真实需求驱动，而非拍脑袋。</p>
+            <i>试试说：「哪些休眠项目的呼声最高？」</i>
+          </div>
+          <div class="fm-item">
+            <b>🏅 传承者成就</b>
+            <p>首粒种子、交接包大师、第五季唤醒者、需求洞察家……七种勋章覆盖发起 / 沉淀 / 接棒 / 助推全链路，贡献值累计可查，全校风云榜实时更新——你的每一次善意都被记录。</p>
+            <i>试试说：「查查我的成就和贡献值」</i>
+          </div>
+          <div class="fm-item">
+            <b>🤝 跨项目协作发现</b>
+            <p>AI 识别领域相近、能力互补的项目组合并主动牵线：美食地图 × 植物图鉴 = 校园文化导览联盟。让项目与项目之间不再孤立，1+1 的善意大于 2。</p>
+            <i>试试说：「哪些项目可以联手协作？」</i>
+          </div>
+        </div>
+      </div>
+      <div class="fm-group">
+        <h4 class="fm-group-title"><span>🧭</span> 个人板块 · 你的校园第二大脑</h4>
+        <p class="fm-group-desc">传承之外，知颜也是你的个人效率伙伴——积累越久，越懂你。</p>
+        <div class="fm-grid">
+          <div class="fm-item">
+            <b>📇 档案画像</b>
+            <p>技能、兴趣、可投入时间的数字画像，随对话持续完善。画像越完整，项目匹配与唤醒推荐越精准——你的经验正在为你指路。</p>
+            <i>试试说：「看看我的档案」</i>
+          </div>
+          <div class="fm-item">
+            <b>🗒️ 待办管理</b>
+            <p>自然语言增改待办（「下周五前交策划案」），支持关联项目、设置截止提醒，到期前知颜主动过问——不再依赖自己记性。</p>
+            <i>试试说：「记个待办：下周三前把社团招新海报文案交给宣传部」</i>
+          </div>
+          <div class="fm-item">
+            <b>💡 灵感库</b>
+            <p>碎片想法随手丢给知颜归档（一句话即可），需要时可检索、可整理，成熟时一键升级为正式项目种子卡——灵感不再死于「回头再说」。</p>
+            <i>试试说：「存个灵感：想在毕业前办一场校园音乐会」</i>
+          </div>
+          <div class="fm-item">
+            <b>🧠 校园议题洞察</b>
+            <p>聚合全库数据，找出「被反复提出却始终无人完成」的校园议题，生成传承报告供学校与社团决策参考——让善意不重复踩坑，让需求被看见。</p>
+            <i>试试说：「哪些校园议题被反复提起却没人做？」</i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature-modal-foot">
+      <button class="btn btn-primary" data-action="enter-chat">去对话中体验 →</button>
+    </div>
+  </div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
